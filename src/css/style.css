@@ -1,0 +1,82 @@
+body {
+    color: rgb(7, 2, 37);
+    background-color: rgb(236, 242, 245);
+    font-size: 16px;
+    width: 1200px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.timeline {
+    position: relative;
+    width: 700px;
+    padding: 8px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.timeline-posts {
+    min-height: 200px;
+    padding: 8px;
+}
+
+.timeline-post {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    min-height: 50px;
+    margin-bottom: 8px;
+    padding: 8px;
+    word-wrap: break-word;
+    border: solid 1px #000;
+    border-radius: 10px;
+}
+
+.post-body {
+    width: 70%;
+    padding: 5px;
+}
+
+.post-content {
+     margin-bottom: 8px;
+}
+
+.timeline-text {
+    width: 500px;
+    min-height: 50px;
+    padding: 5px;
+}
+
+.err-modal {
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    width: 500px;
+    height: 250px;
+    padding: 8px;
+    text-align: center;
+    border: solid 1px #000;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.err-input {
+    margin-bottom: 8px;
+}
+
+.err-empty {
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    width: 500px;
+    height: 100px;
+    padding: 8px;
+    text-align: center;
+    border: solid 1px #000;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
